@@ -1,0 +1,22 @@
+@font-face {
+    font-family: gilroy;
+    src: url("./fonts/gilroy-semibold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url("./fonts/gilroy-bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: octicons;
+    src: url("../fonts/octicons.ttf");
+    font-weight: 400;
+}
+
+html {
+    font-size: clamp(12px, calc(100vmin * 0.0148), 65535px);
+    font-family: sans-serif;
+}
